@@ -1,21 +1,29 @@
-# Kalicmd
+# Welcome to your Lovable project
 
-Českojazyčný AI asistent pro Kali Linux. Projekt je vytvořen pomocí TanStack Start a TypeScriptu.
+This project was built with [Lovable](https://lovable.dev).
 
-## Vývoj
+## Build with Lovable
 
-Závislosti: `bun install`
+Open your project in the [Lovable editor](https://lovable.dev) and keep building.
 
-Lokální vývoj: `bun run dev`
+- **Ship faster**: describe what you want to build and Lovable handles the code.
+- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
+- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
 
-Testy: `bun run test`
+## Development
 
-Lint: `bun run lint`
+Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
-Build: `bun run build`
+```sh
+git clone <this-repository-url>
+cd <repository-name>
+npm i
+npm run dev
+```
 
-## Konfigurace
+## Built with
 
-Citlivé proměnné a lokální tajné hodnoty nejsou součástí repozitáře. Vytvořte vlastní `.env` podle požadavků aplikace a nastavte potřebné přístupové údaje mimo Git.
-
-Zdrojový export: Lovable project `5219ff28-b47e-43d7-a3d7-ae77d94d007d`.
+- TanStack Start
+- TypeScript
+- React
+- Tailwind CSS
